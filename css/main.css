@@ -1,0 +1,950 @@
+@charset "UTF-8";
+/* Body */
+body {
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-family: comfortaa;
+	font-weight: 200;
+}
+
+a:link {
+	color: #FFFFFF}
+a:visited{
+	color: #FFFFFF
+}
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+/* Navigation */
+header {
+	width: 100%;
+	height: 5%;
+	background-color: #FE541F;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.logo {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	width: 10%;
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	letter-spacing: 4px;
+}
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #2C9AB7;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	font-style: normal;
+	font-family: raleway;
+	font-weight: 100;
+	font-size: 30px;
+}
+/* Hero Section */
+.hero {
+	background-image: url("../images/WITA_Hero.jpg");
+	background-color: #22395B;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.light {
+	font-weight: bold;
+	color: #FE541F;
+}
+.tagline {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+/* About Section */
+.text_column {
+	width: 100%;
+	text-align: justify;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #646464;
+}
+.about {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+}
+/* Connect Gallery */
+.connect {
+	
+	color: #717070;
+	margin-bottom: 5px;
+	
+}
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	/* [disabled]min-width: 400px;
+*/
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+.thumbnail {
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+}
+.gallery .thumbnail h4 {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #FE541F;
+}
+.gallery .thumbnail p {
+	margin-top: 1em;
+	margin-right: 0px;
+	margin-bottom: 0px;;
+	margin-left: 0px;
+	color: #A3A3A3;
+}
+/* Parallax Section */
+.banner {
+	background-color: #22395B;
+	background-image:url(../images/WITA_parallax.jpg);
+	height: 400px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax {
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 85px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+
+.parallax_h2 {
+	width: 30%;
+	color: #FFFFFF;
+	text-align: right;
+	padding-left: 100px;
+	padding-top: 50px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description {
+	color: #FFFFFF;
+	text-align: right;
+	padding-left: 100px;
+	width: 30%;
+	float: left;
+	font-weight: lighter;
+	line-height: 22px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.contactCTA {
+	width: 30%;
+	margin-left: 0px;
+	padding-top: 150px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 100px;
+	text-align: right;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: all 0.3s linear;
+}
+
+.parallax_button {
+	background-color: #09C8E2;
+	width: 200px;
+	margin-top: 40px;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.parallax_button:hover {
+	background-color: #07AFC6;
+	color: #FAF2F2;
+	cursor: pointer;
+}
+/* More info */
+footer {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.footer_column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+footer .footer_column h3 {
+	color: #B3B3B3;
+	text-align: center;
+}
+footer .footer_column p {
+	color: #717070;
+	background-color: #FFFFFF;
+}
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+}
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.sponsorgallery{
+	margin-top: 2em;
+	margin-right: 1em;
+	margin-bottom: 2em;
+	margin-left: 0px;
+	color: #A3A3A3;
+	text-align: center;
+	vertical-align: middle;
+	}
+.button {
+	background-color: #09C8E2;
+	width: 350px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #07AFC6;
+	color: #FAF2F2;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+
+.attribution{
+	background-color: #717070;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10PX;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-size: .50em
+}
+	
+.footer_banner {
+	background-color: #B3B3B3;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	margin-bottom: 20px;
+	background-image: url(../images/pattern.png);
+	background-repeat: repeat;
+}
+
+footer {
+	display: inline-block;
+}
+.hidden {
+	display: none;
+}
+
+/* Custom, iPhone Retina */
+@media (max-width: 320px) {
+	
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	display: none;
+}
+header nav ul {
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+	
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	font-style: normal;
+	font-family: raleway;
+	font-weight: 100;
+	font-size: 25px;
+	}
+	
+.tagline {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	font-size: 15px;
+	}
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax_h2 {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 50px;
+	font-size: 20px;
+	}
+.parallax {
+	text-align: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	float: none;
+	width: 90%;
+	text-align: center;
+	display: block;
+}
+	
+.contactCTA {
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+}
+	
+.parallax_button {
+	background-color: #09C8E2;
+	width: 100px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-right: auto;
+	margin-bottom: 3em;
+	margin-left: auto;
+	margin-top: 3em;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	font-size: 1em
+	}
+.banner {
+	background-color: #22395B;
+	background-image: none;
+}
+.tagline {
+	margin-top: 20px;
+	line-height: 22px;
+}
+	.sponsor_hidden_mobile{
+		display: none;
+	}
+
+.button{
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	width: 60%;	
+		
+	}
+	
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.hero {
+	background-image: url("../images/WITA_Hero.jpg");
+	background-color: #22395B;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+.attribution{
+	background-color: #717070;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-size: .10em
+
+}
+}
+
+/* Extra Small Devices, Phones*/
+@media (min-width: 321px)and (max-width: 479px) {
+	
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	display: none;
+}
+header nav ul {
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+	
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	font-style: normal;
+	font-family: raleway;
+	font-weight: 100;
+	font-size: 30px;
+	}
+	
+.tagline {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	font-size: 15px;
+	}
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax_h2 {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 50px;
+	font-size: 20px;
+	}
+.parallax {
+	text-align: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	float: none;
+	width: 80%;
+	text-align: center;
+	display: block;
+}
+	
+.contactCTA {
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+}
+	
+.parallax_button {
+	background-color: #09C8E2;
+	width: 200px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-right: auto;
+	margin-bottom: 3em;
+	margin-left: auto;
+	margin-top: 1.25em;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	font-size: 1.25em
+	}
+.banner {
+	background-color: #22395B;
+	background-image: none;
+}
+.tagline {
+	margin-top: 20px;
+	line-height: 22px;
+}
+	.sponsor_hidden_mobile{
+		display: none;
+	}
+
+.button{
+	font-weight: bold;
+	font-size: 1em;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	width: 60%;	
+		
+	}
+	
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.hero {
+	background-image: url("../images/WITA_Hero.jpg");
+	background-color: #22395B;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+.attribution{
+	background-color: #717070;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-size: .10em
+
+}
+}
+
+ /* Small Devices, Tablets */
+@media (min-width: 480px)and (max-width: 767px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #FFFFFF;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	overflow: auto;
+	display: inline-block;
+	background: #FE541F;
+}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_h2 {
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 50px;
+	}
+	
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+	
+.contactCTA {
+	text-align: center;
+	width: 70%;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+	
+.parallax_button {
+	background-color: #09C8E2;
+	width: 200px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	}
+.thumbnail {
+	width: 50%;
+}
+	
+.banner {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+	
+.sponsor_hidden_desktop{
+	display: none;
+	}
+	
+.button {
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	width: 70%;
+	}
+	
+
+.footer_column {
+	width: 100%;
+}
+	
+.attribution{
+	background-color: #717070;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10PX;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-size: .30em
+}
+}
+
+/* Medium Devices, Desktops */
+@media (min-width: 768px) and (max-width: 992px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.sponsor_hidden_desktop{
+	display: none;
+	}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+}
+
+@media (min-width: 1097px){
+.sponsor_hidden_desktop{
+	display: none;
+}
+}
