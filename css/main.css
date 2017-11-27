@@ -598,7 +598,7 @@ nav ul li {
 	font-style: normal;
 	font-family: raleway;
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 25px;
 	}
 	
 .tagline {
@@ -700,7 +700,7 @@ nav ul li {
 
 .button{
 	font-weight: bold;
-	font-size: 1em;
+	font-size: .9em;
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
