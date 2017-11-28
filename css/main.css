@@ -104,7 +104,7 @@ ul li:hover a {
 }
 /* About Section */
 .text_column {
-	width: 100%;
+	width: 99%;
 	text-align: justify;
 	font-weight: lighter;
 	line-height: 25px;
@@ -249,12 +249,16 @@ footer {
 .footer_column {
 	width: 50%;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 	float: left;
 }
 footer .footer_column h3 {
-	color: #B3B3B3;
-	text-align: center;
+	color: #FE4409;
+	text-align: left;
+	padding-left: 50px;
+	font-weight: bold;
+	font-size: 20px;
 }
 footer .footer_column p {
 	color: #717070;
@@ -263,8 +267,24 @@ footer .footer_column p {
 .cards {
 	width: 100%;
 	height: auto;
-	max-width: 400px;
-	max-height: 200px;
+	max-width: 600px;
+	max-height: 400px;
+}
+
+.button_meetup {
+	background-color: none;
+	width: 5%;
+	margin-top: 0px;
+	margin-right: 70%;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+	vertical-align: center;
+	border-radius: 0px;
 }
 footer .footer_column p {
 	padding-left: 30px;
@@ -943,7 +963,7 @@ nav ul li {
 }
 }
 
-@media (min-width: 1097px){
+@media (min-width: 993px){
 .sponsor_hidden_desktop{
 	display: none;
 }
