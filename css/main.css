@@ -529,7 +529,7 @@ footer {
 .cards {
 	width: 100%;
 	height: auto;
-	padding-top: 8px;
+	padding-top: 1em;
 	max-width: 700px;
 	max-height: 500px;
 }
