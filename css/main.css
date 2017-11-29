@@ -1,5 +1,7 @@
 @charset "UTF-8";
+
 /* Body */
+
 body {
 	background-color: #f2f2f2;
 	margin-top: 0px;
@@ -10,7 +12,6 @@ body {
 	font-family: comfortaa;
 	font-weight: 400;
 }
-
 a:link {
 	color: #FFFFFF
 }
@@ -19,6 +20,7 @@ a:visited{
 }
 
 /* Main Container */
+
 .container {
 	width: 90%;
 	margin-left: auto;
@@ -89,12 +91,10 @@ ul li:hover a {
 	font-weight: 500;
 	font-size: 40px;
 }
-
 .light {
 	font-weight: bold;
 	color: #FE541F;
 }
-
 .tagline {
 	text-align: center;
 	color: #FFFFFF;
@@ -104,7 +104,6 @@ ul li:hover a {
 	letter-spacing: 1px;
 	font-size: 22px;
 }
-
 .hero {
 	background-image: url("../images/WITA_Hero.jpg");
 	background-color: #22395B;
@@ -167,7 +166,7 @@ ul li:hover a {
 	color: #535252;
 }
 
-/* Parallax Section */
+/* Contact Us & Parallax Section */
 
 .banner {
 	background-color: #22395B;
@@ -177,15 +176,6 @@ ul li:hover a {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.parallax {
-	color: #FFFFFF;
-	text-align: left;
-	padding-left: 85px;
-	padding-top: 110px;
-	letter-spacing: 2px;
-	margin-top: 0px;
-}
-
 .parallax_h2 {
 	width: 30%;
 	color: #FFFFFF;
@@ -222,7 +212,6 @@ ul li:hover a {
 	letter-spacing: 2px;
 	transition: all 0.3s linear;
 }
-
 .parallax_button {
 	background-color: #09C8E2;
 	width: 200px;
@@ -245,14 +234,23 @@ ul li:hover a {
 	transition: all 0.3s linear;
 }
 .parallax_button:hover {
-	background-color: #07AFC6;
+	background-color: #0699AD;
 	color: #FAF2F2;
 	cursor: pointer;
 }
-/* More info */
+
+/* Meetup info Section */
+
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 30px;
+}
+.cards {
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	max-width: 700px;
+	max-height: 500px;
 }
 .footer_column {
 	width: 50%;
@@ -271,13 +269,13 @@ footer .footer_column h3 {
 footer .footer_column p {
 	color: #717070;
 	background-color: #FFFFFF;
-}
-.cards {
-	width: 100%;
-	height: auto;
-	padding-top: 30px;
-	max-width: 700px;
-	max-height: 500px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .button_meetup {
@@ -295,24 +293,29 @@ footer .footer_column p {
 	vertical-align: center;
 	border-radius: 0px;
 }
-footer .footer_column p {
-	padding-left: 30px;
-	padding-right: 30px;
-	text-align: justify;
-	line-height: 25px;
-	font-weight: lighter;
-	margin-left: 20px;
-	margin-right: 20px;
-}
 
 .footer_banner {
 	background-color: #B3B3B3;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 40PX;
-	margin-bottom: 20px;
+	margin-bottom: 2px;
+}
+
+.sponsor_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 1px;
+	font-style: normal;
+	font-family: raleway;
+	font-weight: 300;
+	font-size: 40px;
 }
 .sponsorgallery{
-	margin-top: 2em;
+	margin-top: 40px;
 	margin-right: 1em;
 	margin-bottom: 2em;
 	margin-left: 0px;
@@ -338,11 +341,10 @@ footer .footer_column p {
 	font-weight: bold;
 	letter-spacing: 2px;
 	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
 	transition: all 0.3s linear;
 }
 .button:hover {
-	background-color: #07AFC6;
+	background-color: #0699AD;
 	color: #FAF2F2;
 	cursor: pointer;
 }
@@ -367,13 +369,11 @@ footer .footer_column p {
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
-	font-size: .50em
+	font-size: .40em
 }
 
 footer {
 	display: inline-block;
-}
-
 }
 
 /* Custom, iPhone Retina */
