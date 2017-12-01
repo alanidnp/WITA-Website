@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* Body */
 body {
 	background-color: #f2f2f2;
@@ -357,7 +356,7 @@ footer {
 	display: inline-block;
 }
 
-/* Custom, iPhone Retina (Max Width) */
+/* Custom, iPhone Retina (Max Width: 320) */
 @media (max-width: 320px) {
 	/* Max Width 320px: Body */
 .container header nav {
@@ -811,7 +810,7 @@ nav {
 	}
 	/* Min: 480, Max: 575- Contact Us & Parallax Section */
 .banner {
-	background-image: url("../images/WITA_parallax_small2.jpg");
+	background-image: url("../images/WITA_parallax_smaller.jpg");
 	background-color: #22395B;
 	height: 26em;
 	background-size: cover;
@@ -1011,7 +1010,7 @@ nav {
 	}
 	/* Min: 576, Max: 767- Contact Us & Parallax Section */
 .banner {
-	background-image: url("../images/WITA_parallax_small2.jpg");
+	background-image: url("../images/WITA_parallax_smaller.jpg");
 	background-color: #22395B;
 	height: 22em;
 	background-size: cover;
@@ -1163,7 +1162,7 @@ footer .footer_column p {
 }
 	/* Min: 768, Max: 991- Contact Us & Parallax Section */
 .banner {
-	background-image: url("../images/WITA_parallax_small2.jpg");
+	background-image: url("../images/WITA_parallax_smaller.jpg");
 	background-color: #22395B;
 	height: 22em;
 	background-size: cover;
