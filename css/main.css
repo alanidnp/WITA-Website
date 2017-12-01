@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /* Body */
-
 body {
 	background-color: #f2f2f2;
 	margin-top: 0px;
@@ -18,9 +17,7 @@ a:link {
 a:visited{
 	color: #FFFFFF
 }
-
 /* Main Container */
-
 .container {
 	width: 90%;
 	margin-left: auto;
@@ -28,16 +25,13 @@ a:visited{
 	height: 1200px;
 	background-color: #FFFFFF;
 }
-
 /* Navigation */
-
 header {
 	width: 100%;
 	height: 5%;
 	background-color: #FE541F;
 	border-bottom: 2px solid #FFFFFF;
 }
-
 .logo {
 	color: #FFFFFF;
 	font-weight: bold;
@@ -75,9 +69,7 @@ ul li a {
 ul li:hover a {
 	color: #22395B;
 }
-
 /* Hero Section */
-
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;
@@ -110,9 +102,7 @@ ul li:hover a {
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
-
 /* About Section */
-
 .about {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -120,7 +110,6 @@ ul li:hover a {
 	display: inline-block;
 	background-color: #FFFFFF;
 }
-
 .text_column {
 	width: 97%;
 	text-align: justify;
@@ -131,10 +120,7 @@ ul li:hover a {
 	padding-right: 20px;
 	color: #535252;
 }
-
-
 /* Connect Gallery Section */
-
 .gallery {
 	clear: both;
 	display: inline-block;
@@ -165,9 +151,7 @@ ul li:hover a {
 	margin-left: 0px;
 	color: #535252;
 }
-
 /* Contact Us & Parallax Section */
-
 .banner {
 	background-color: #22395B;
 	background-image:url(../images/WITA_parallax.jpg);
@@ -238,9 +222,7 @@ ul li:hover a {
 	color: #FAF2F2;
 	cursor: pointer;
 }
-
 /* Meetup info Section */
-
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 30px;
@@ -277,7 +259,6 @@ footer .footer_column p {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-
 .button_meetup {
 	background-color: none;
 	width: 5%;
@@ -293,16 +274,13 @@ footer .footer_column p {
 	vertical-align: center;
 	border-radius: 0px;
 }
-
 .footer_banner {
 	background-color: #B3B3B3;
 	padding-top: 20px;
 	padding-bottom: 40PX;
-	margin-bottom: 2px;
+	margin-bottom: 8px;
 }
-
 /* Sponsor info Section */
-
 .sponsor_header {
 	color: #FFFFFF;
 	text-align: center;
@@ -350,9 +328,7 @@ footer .footer_column p {
 	color: #FAF2F2;
 	cursor: pointer;
 }
-
 /* Copyrights Section */
-
 .copyright {
 	text-align: center;
 	padding-top: 20px;
@@ -364,9 +340,7 @@ footer .footer_column p {
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
-
 /* Image Attribution Section */
-
 .attribution{
 	background-color: #717070;
 	text-align: center;
@@ -379,17 +353,13 @@ footer .footer_column p {
 	border-top-width: 2px;
 	font-size: .40em
 }
-
 footer {
 	display: inline-block;
 }
 
 /* Custom, iPhone Retina (Max Width) */
-
 @media (max-width: 320px) {
-	
 	/* Max Width 320px: Body */
-
 .container header nav {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -398,9 +368,8 @@ footer {
 	width: 100%;
 	float: none;
 	display: none;
-}
-	/* Max Width 320px: Navigation Section*/
-	
+	}
+	/* Max Width 320px: Navigation Section*/	
 .logo {
 	width: 100%;
 	text-align: center;
@@ -408,16 +377,17 @@ footer {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	}
+nav {
+	display: none;
 }
 	/* Max Width 320px: Hero Section */
-
 .hero {
 	background-image: url("../images/WITA_Hero.jpg");
 	background-color: #22395B;
 	padding-top: 110px;
 	padding-bottom: 110px;
 	}
-	
 .hero_header {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -427,14 +397,12 @@ footer {
 	font-size: 25px;
 	text-align: center;
 	}
-	
 .tagline {
 	font-size: 15px;
 	margin-top: 20px;
 	line-height: 22px;
 	}
-/* Max Width 320px: About Section */
-	
+	/* Max Width 320px: About Section */
 .text_column {
 	width: 100%;
 	text-align: justify;
@@ -442,16 +410,12 @@ footer {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-}
-
-/* Max Width 320px: Connect Gallery Section */
-	
+	}
+	/* Max Width 320px: Connect Gallery Section */
 .thumbnail {
 	width: 100%;
-}
-
-/* Max Width 320px: Contact Us & Parallax Section */
-
+	}
+	/* Max Width 320px: Contact Us & Parallax Section */
 .banner {
 	background-color: #22395B;
 	height: 33em;
@@ -466,7 +430,6 @@ footer {
 	padding-top: 50px;
 	font-size: 22px;
 	}
-
 .parallax_description {
 	padding-top: 2px;
 	padding-right: 2px;
@@ -481,7 +444,6 @@ footer {
 	text-align: center;
 	display: block;
 }
-	
 .contactCTA {
 	padding-left: 0px;
 	padding-top: 0px;
@@ -490,7 +452,6 @@ footer {
 	margin-left: 0px;
 	width: 100%;
 }
-	
 .parallax_button {
 	background-color: #09C8E2;
 	width: 100px;
@@ -507,23 +468,18 @@ footer {
 	transition: all 0.3s linear;
 	font-size: 1em
 	}
-
-	
-/* Max Width 320px: Meetup info Section*/
-	
+	/* Max Width 320px: Meetup info Section*/
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 30px;
-}
-	
+	}
 .cards {
 	width: 100%;
 	height: auto;
 	padding-top: .5em;
 	max-width: 700px;
 	max-height: 500px;
-}
-	
+	}
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
@@ -531,14 +487,12 @@ footer {
 	padding-bottom: 20px;
 	padding-left: 0px;
 	padding-right: 0px;
-}
-
+	}
 footer .footer_column h3 {
 	color: #FE4409;
 	text-align: center;
 	padding-left: 0px;
 }
-	
 footer .footer_column p {
 	color: #717070;
 	background-color: #FFFFFF;
@@ -546,27 +500,22 @@ footer .footer_column p {
 	padding-right: 15px;
 	margin-left: 0px;
 	margin-right: 0px;
-}
-
+	}
 .button_meetup {
 	background-color: none;
 	margin-right: 0px;
 	margin-left: 40%;
-}
-
-/* Max Width 320px: Sponsor info Section*/	
-	
+	}
+	/* Max Width 320px: Sponsor info Section*/	
 .sponsor_header {
 	font-size: 25px;
-}
-
-.sponsor_hidden_mobile{
+	}
+.sponsor_hidden_desktop{
 		display: none;
 	}
-
 .button{
 	font-weight: bold;
-	font-size: .8em;
+	font-size: .5em;
 	padding-top: 5px;
 	padding-right: 5px;
 	padding-bottom: 5px;
@@ -577,10 +526,7 @@ footer .footer_column p {
 	transition: all 0.3s linear;
 	width: 60%;	
 	}
-	
-
-/* Max Width 320px: Copyright Section */
-	
+	/* Max Width 320px: Copyright Section */
 .copyright {
 	text-align: center;
 	font-size: .75em;
@@ -593,11 +539,7 @@ footer .footer_column p {
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
-
-
-	
-/* Max Width 320px: Attribution Section */
-	
+	/* Max Width 320px: Attribution Section */
 .attribution{
 	background-color: #717070;
 	text-align: center;
@@ -611,11 +553,8 @@ footer .footer_column p {
 }
 
 /* Extra Small Devices, Phones Min: 321, Max: 479*/
-
 @media (min-width: 321px)and (max-width: 479px) {
-	
 	/* Min: 321, Max: 479px: Body */
-	
 .container header nav {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -624,9 +563,8 @@ footer .footer_column p {
 	width: 100%;
 	float: none;
 	display: none;
-}
+	}
 	/* Min: 321, Max: 479px: Navigation Section*/
-	
 .logo {
 	width: 100%;
 	text-align: center;
@@ -635,17 +573,16 @@ footer .footer_column p {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
-
-/* Min: 321, Max: 479- Hero Section */
-	
-	
+nav {
+	display: none;
+}
+	/* Min: 321, Max: 479- Hero Section */
 .hero {
 	background-image: url("../images/hero_321-479px.jpg");
 	background-color: #22395B;
 	padding-top: 130px;
 	padding-bottom: 130px;
 	}
-	
 .hero_header {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -655,15 +592,12 @@ footer .footer_column p {
 	font-size: 25px;
 	text-align: center;
 	}
-	
 .tagline {
 	font-size: 15px;
 	margin-top: 20px;
 	line-height: 22px;
 	}
-	
-/* Min: 321, Max: 479- About Section */
-	
+	/* Min: 321, Max: 479- About Section */	
 .text_column {
 	width: 100%;
 	text-align: justify;
@@ -672,15 +606,11 @@ footer .footer_column p {
 	padding-bottom: 0px;
 	padding-left: 0px;
 	}
-
-/* Min: 321, Max: 479- Connect Gallery Section */
-	
+	/* Min: 321, Max: 479- Connect Gallery Section */
 .thumbnail {
 	width: 100%;
 	}
-
-/* Min: 321, Max: 479- Contact Us & Parallax Section */
-
+	/* Min: 321, Max: 479- Contact Us & Parallax Section */
 .banner {
 	background-color: #22395B;
 	height: 30em;
@@ -695,7 +625,6 @@ footer .footer_column p {
 	padding-top: 50px;
 	font-size: 22px;
 	}
-
 .parallax_description {
 	padding-top: 2px;
 	padding-right: 0px;
@@ -710,7 +639,6 @@ footer .footer_column p {
 	text-align: center;
 	display: block;
 	}
-	
 .contactCTA {
 	padding-left: 0px;
 	padding-top: 0px;
@@ -719,7 +647,6 @@ footer .footer_column p {
 	margin-left: 0px;
 	width: 100%;
 	}
-	
 .parallax_button {
 	background-color: #09C8E2;
 	width: 150px;
@@ -736,15 +663,11 @@ footer .footer_column p {
 	transition: all 0.3s linear;
 	font-size: 1.25em
 	}
-
-	
-/* Min: 321, Max: 479- Meetup info Section */
-	
+	/* Min: 321, Max: 479- Meetup info Section */
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 30px;
 	}
-	
 .cards {
 	width: 100%;
 	height: auto;
@@ -752,7 +675,6 @@ footer {
 	max-width: 700px;
 	max-height: 500px;
 	}
-	
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
@@ -761,13 +683,11 @@ footer {
 	padding-left: 0px;
 	padding-right: 0px;
 	}
-
 footer .footer_column h3 {
 	color: #FE4409;
 	text-align: center;
 	padding-left: 0px;
 	}
-	
 footer .footer_column p {
 	color: #717070;
 	background-color: #FFFFFF;
@@ -776,15 +696,12 @@ footer .footer_column p {
 	margin-left: 0px;
 	margin-right: 0px;
 	}
-
 .button_meetup {
 	background-color: none;
 	margin-right: 0px;
 	margin-left: 40%;
 	}
-
-/* Min: 321, Max: 479- Sponsor info Section */	
-	
+	/* Min: 321, Max: 479- Sponsor info Section */	
 .sponsor_header {
 	font-size: 30px;
 	margin-bottom: 40px;
@@ -792,11 +709,9 @@ footer .footer_column p {
 	margin-left: 20px;
 	margin-right: 20px;
 	}
-
 .sponsor_hidden_mobile{
 		display: none;
 	}
-
 .button{
 	font-weight: bold;
 	font-size: .9em;
@@ -811,10 +726,9 @@ footer .footer_column p {
 	transition: all 0.3s linear;
 	width: 60%;	
 	}
-	
-/* Min: 321, Max: 479px: Copyright Section */
-	
+	/* Min: 321, Max: 479px: Copyright Section */
 .copyright {
+	
 	text-align: center;
 	font-size: 1em;
 	padding-top: 40px;
@@ -826,9 +740,7 @@ footer .footer_column p {
 	letter-spacing: 2px;
 	border-top-width: 2px;
 	}
-	
-/* Min: 321, Max: 479px: Attribution Section */
-	
+	/* Min: 321, Max: 479px: Attribution Section */
 .attribution{
 	background-color: #717070;
 	text-align: center;
@@ -841,9 +753,7 @@ footer .footer_column p {
 }
 
  /* Small Devices Min: 480, Max: 575*/
-
 @media (min-width: 480px)and (max-width: 575px) {
-	
 .container header nav {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -854,7 +764,6 @@ footer .footer_column p {
 	display: none;
 }
 	/* Min: 480, Max: 575- Navigation Section*/
-	
 .logo {
 	width: 100%;
 	text-align: center;
@@ -862,18 +771,17 @@ footer .footer_column p {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	}
+nav {
+	display: none;
 }
-
-/* Min: 480, Max: 575- Hero Section */
-	
-	
+	/* Min: 480, Max: 575- Hero Section */
 .hero {
 	background-image: url("../images/hero_480-575px.jpg");
 	background-color: #22395B;
 	padding-top: 130px;
 	padding-bottom: 130px;
 	}
-	
 .hero_header {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -883,15 +791,12 @@ footer .footer_column p {
 	font-size: 30px;
 	text-align: center;
 	}
-	
 .tagline {
-	font-size: 15px;
+	font-size: 17px;
 	margin-top: 20px;
 	line-height: 22px;
 	}
-	
-/* Min: 480, Max: 575- About Section */
-	
+	/* Min: 480, Max: 575- About Section */
 .text_column {
 	width: 100%;
 	text-align: justify;
@@ -899,21 +804,17 @@ footer .footer_column p {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-}
-
-/* Min: 480, Max: 575- Connect Gallery Section */
-	
+	}
+	/* Min: 480, Max: 575- Connect Gallery Section */
 .thumbnail {
 	width: 100%;
-}
-
-/* Min: 480, Max: 575- Contact Us & Parallax Section */
-
+	}
+	/* Min: 480, Max: 575- Contact Us & Parallax Section */
 .banner {
+	background-image: url("../images/WITA_parallax_small2.jpg");
 	background-color: #22395B;
 	height: 26em;
 	background-size: cover;
-	background-image: none;
 	}
 .parallax_h2 {
 	display: block;
@@ -923,7 +824,6 @@ footer .footer_column p {
 	padding-top: 50px;
 	font-size: 22px;
 	}
-
 .parallax_description {
 	padding-top: 2px;
 	padding-right: 0px;
@@ -938,7 +838,6 @@ footer .footer_column p {
 	text-align: center;
 	display: block;
 }
-	
 .contactCTA {
 	padding-left: 0px;
 	padding-top: 0px;
@@ -947,7 +846,6 @@ footer .footer_column p {
 	margin-left: 0px;
 	width: 100%;
 }
-	
 .parallax_button {
 	background-color: #09C8E2;
 	width: 150px;
@@ -964,15 +862,11 @@ footer .footer_column p {
 	transition: all 0.3s linear;
 	font-size: 1.25em
 	}
-
-	
-/* Min: 480, Max: 575- Meetup info Section */
-	
+	/* Min: 480, Max: 575- Meetup info Section */
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 30px;
 }
-	
 .cards {
 	width: 100%;
 	height: auto;
@@ -980,7 +874,6 @@ footer {
 	max-width: 700px;
 	max-height: 500px;
 }
-	
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
@@ -989,13 +882,11 @@ footer {
 	padding-left: 0px;
 	padding-right: 0px;
 }
-
 footer .footer_column h3 {
 	color: #FE4409;
 	text-align: center;
 	padding-left: 0px;
 }
-	
 footer .footer_column p {
 	color: #717070;
 	background-color: #FFFFFF;
@@ -1004,25 +895,23 @@ footer .footer_column p {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-
 .button_meetup {
 	background-color: none;
 	margin-right: 0px;
 	margin-left: 45%;
 }
-
-/* Min: 480, Max: 575- Sponsor info Section */	
 	
+	/* Min: 480, Max: 575- Sponsor info Section */	
 .sponsor_header {
 	font-size: 2em;
 	margin-bottom: 40px;
 	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
-
-.sponsor_hidden_desktop{
+.sponsor_hidden_mobile{
 		display: none;
 	}
-
 .button{
 	font-weight: bold;
 	font-size: 1em;
@@ -1037,9 +926,7 @@ footer .footer_column p {
 	transition: all 0.3s linear;
 	width: 60%;	
 	}
-	
-/* Min: 480, Max: 575- Copyright Section */
-	
+	/* Min: 480, Max: 575- Copyright Section */
 .copyright {
 	text-align: center;
 	font-size: 1em;
@@ -1052,9 +939,7 @@ footer .footer_column p {
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
-
-/* Min: 480, Max: 575- Attribution Section */
-	
+	/* Min: 480, Max: 575- Attribution Section */
 .attribution{
 	background-color: #717070;
 	text-align: center;
@@ -1077,9 +962,8 @@ footer .footer_column p {
 	width: 100%;
 	float: none;
 	display: none;
-}
+	}
 	/* Min: 576, Max: 767- Navigation Section*/
-	
 .logo {
 	width: 100%;
 	text-align: center;
@@ -1087,36 +971,32 @@ footer .footer_column p {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	}
+nav {
+	display: none;
 }
-
-/* Min: 480, Max: 575- Hero Section */
-	
-	
+	/* Min: 576, Max: 767- Hero Section */
 .hero {
-	background-image: url("../images/hero_480-575px.jpg");
+	background-image: url("../images/hero_576-767px.jpg");
 	background-color: #22395B;
 	padding-top: 130px;
 	padding-bottom: 130px;
 	}
-	
 .hero_header {
 	padding-left: 10px;
 	padding-right: 10px;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	font-family: raleway;
 	font-weight: 100;
-	font-size: 25px;
+	font-size: 30px;
 	text-align: center;
 	}
-	
 .tagline {
-	font-size: 15px;
+	font-size: 18px;
 	margin-top: 20px;
 	line-height: 22px;
 	}
-	
-/* Min: 480, Max: 575- About Section */
-	
+	/* Min: 576 Max: 767- About Section */
 .text_column {
 	width: 100%;
 	text-align: justify;
@@ -1125,45 +1005,39 @@ footer .footer_column p {
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
-
-/* Min: 480, Max: 575- Connect Gallery Section */
-	
+	/* Min: 576, Max: 767- Connect Gallery Section */
 .thumbnail {
-	width: 100%;
-}
-
-/* Min: 480, Max: 575- Contact Us & Parallax Section */
-
+	width: 50%;
+	}
+	/* Min: 576, Max: 767- Contact Us & Parallax Section */
 .banner {
+	background-image: url("../images/WITA_parallax_small2.jpg");
 	background-color: #22395B;
-	height: 33em;
+	height: 22em;
 	background-size: cover;
-	background-image: none;
 	}
 .parallax_h2 {
 	display: block;
-	text-align: center;
+	text-align: left;
 	width: 100%;
-	padding-left: 0px;
+	padding-left: 20px;
 	padding-top: 50px;
 	font-size: 22px;
 	}
-
-.parallax_description {
+.parallax_description {;
 	padding-top: 2px;
 	padding-right: 0px;
 	padding-bottom: 2px;
 	padding-left: 0px;
-	margin-top: 20%;
+	margin-top: 5%;
 	margin-right: 20px;
 	margin-bottom: 0px;
 	margin-left: 20px;
 	float: none;
 	width: 90%;
-	text-align: center;
+	text-align:  left;
 	display: block;
 }
-	
 .contactCTA {
 	padding-left: 0px;
 	padding-top: 0px;
@@ -1172,7 +1046,6 @@ footer .footer_column p {
 	margin-left: 0px;
 	width: 100%;
 }
-	
 .parallax_button {
 	background-color: #09C8E2;
 	width: 150px;
@@ -1183,29 +1056,24 @@ footer .footer_column p {
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: auto;
-	margin-top: 15%;
+	margin-top: 5%;
 	border: 3px solid #FFFFFF;
 	color: #FFFFFF;
 	transition: all 0.3s linear;
 	font-size: 1.25em
 	}
-
-	
-/* Min: 480, Max: 575- Meetup info Section */
-	
+	/* Min: 576, Max: 767- Meetup info Section */
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 30px;
 }
-	
 .cards {
 	width: 100%;
 	height: auto;
 	padding-top: .5em;
 	max-width: 700px;
 	max-height: 500px;
-}
-	
+	}
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
@@ -1213,62 +1081,55 @@ footer {
 	padding-bottom: 20px;
 	padding-left: 0px;
 	padding-right: 0px;
-}
-
+	}
 footer .footer_column h3 {
 	color: #FE4409;
 	text-align: center;
 	padding-left: 0px;
-}
-	
+	}	
 footer .footer_column p {
 	color: #717070;
 	background-color: #FFFFFF;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
 	margin-left: 0px;
 	margin-right: 0px;
-}
-
+	}
 .button_meetup {
 	background-color: none;
 	margin-right: 0px;
-	margin-left: 40%;
-}
-
-/* Min: 480, Max: 575- Sponsor info Section */	
-	
+	margin-left: 45%;
+	margin-top: 5%;
+	}
+	/* Min: 576, Max: 767-Sponsor info Section */		
 .sponsor_header {
-	font-size: 25px;
+	font-size: 40px;
 	margin-bottom: 40px;
 	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
-
 .sponsor_hidden_mobile{
 		display: none;
 	}
-
 .button{
 	font-weight: bold;
-	font-size: .9em;
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	margin-top: 50px;
+	font-size: 1em;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-top: 60px;
 	letter-spacing: 2px;
 	border: 3px solid #FFFFFF;
 	color: #FFFFFF;
 	transition: all 0.3s linear;
 	width: 60%;	
 	}
-	
-
-/* Min: 480, Max: 575- Copyright Section */
-	
+	/* Min: 576, Max: 767- Copyright Section */	
 .copyright {
 	text-align: center;
-	font-size: .75em;
+	font-size: 1em;
 	padding-top: 40px;
 	padding-bottom: 20px;
 	background-color: #717070;
@@ -1277,33 +1138,83 @@ footer .footer_column p {
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
-}
-
-
-	
-/* Min: 480, Max: 575- Attribution Section */
-	
+	}
+	/* Min: 576, Max: 767- Attribution Section */
 .attribution{
 	background-color: #717070;
 	text-align: center;
-	font-size: .10em;
+	font-size: .5em;
 	padding-top: 40px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	/* Min: 768, Max: 991- About Section */
+.text_column {
+	width: 100%;
+}	
+	/* Min: 768, Max: 991- Connect Gallery Section */
+.thumbnail {
+	width: 50%;
+}
+	/* Min: 768, Max: 991- Contact Us & Parallax Section */
+.banner {
+	background-image: url("../images/WITA_parallax_small2.jpg");
+	background-color: #22395B;
+	height: 22em;
+	background-size: cover;
+	}
+.parallax_h2 {
+	display: block;
+	text-align: left;
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 50px;
+	font-size: 22px;
+	}
+.parallax_description {;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	margin-top: 5%;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	float: none;
+	width: 90%;
+	text-align:  left;
+	display: block;
+}
+.contactCTA {
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 00px;
+	margin-left: 0px;
+	width: 100%;
+}
+.parallax_button {
+	background-color: #09C8E2;
+	width: 150px;
+	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-
-}
-}
-
-/* Medium Devices, Desktops */
-
-@media (min-width: 768px) and (max-width: 991px) {
-.text_column {
-	width: 100%;
-}
-.thumbnail {
-	width: 50%;
-}
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-top: 5%;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	font-size: 1.25em
+	}
+	/* Min: 768, Max: 991- Meetup info Section */
 .text_column {
 	width: 100%;
 	margin-top: 0px;
@@ -1315,50 +1226,35 @@ footer .footer_column p {
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
-.sponsor_hidden_desktop{
+	/* Min: 768, Max: 991-Sponsor info Section */
+.sponsor_hidden_mobile{
 	display: none;
 	}
-.banner {
-	margin-top: 0px;
-	padding-top: 0px;
-}
-}
-
-/* Medium Devices, Desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-.text_column {
-	width: 100%;
-}
-.thumbnail {
-	width: 50%;
-}
-.text_column {
-	width: 100%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.sponsor_hidden_desktop{
-	display: none;
-	}
-.banner {
-	margin-top: 0px;
-	padding-top: 0px;
-}
 }
 
 /* Desktops */
-
-@media (min-width: 1200px){
-.sponsor_hidden_desktop{
+@media (min-width: 992px) {
+	/* Min: 992- About Section */
+.text_column {
+	width: 100%;
+}/* Min: 992- Meetup Info Section */
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+	/* Min: 992-Sponsor info Section */
+.sponsor_hidden_mobile{
 	display: none;
-}
-}
+	}
 
-/* Larger Desktops */
-
+}
