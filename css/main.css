@@ -274,14 +274,14 @@ footer .footer_column p {
 	border-radius: 0px;
 }
 .footer_banner {
-	background-color: #B3B3B3;
+	background-color: #FFFFFF;
 	padding-top: 20px;
 	padding-bottom: 40PX;
 	margin-bottom: 8px;
 }
 /* Sponsor info Section */
 .sponsor_header {
-	color: #FFFFFF;
+	color: #22395B;
 	text-align: center;
 	margin-top: 10px;
 	margin-right: 0px;
@@ -505,7 +505,7 @@ footer .footer_column p {
 	margin-right: 0px;
 	margin-left: 40%;
 	}
-	/* Max Width 320px: Sponsor info Section*/	
+	/* Max Width 480px: Sponsor info Section*/	
 .sponsor_header {
 	font-size: 1.5em;
 	}
@@ -552,7 +552,7 @@ footer .footer_column p {
 }
 
 /* Extra Small Devices, Phones Min: 321, Max: 479*/
-@media (min-width: 321px)and (max-width: 479px) {
+@media (min-width : 321px ) and ( max-width : 479px ){
 	/* Min: 321, Max: 479px: Body */
 .container header nav {
 	margin-top: 0px;
@@ -910,6 +910,7 @@ footer .footer_column p {
 }
 .sponsor_hidden_mobile{
 		display: none;
+	
 	}
 .button{
 	font-weight: bold;
@@ -1237,4 +1238,3 @@ footer .footer_column p {
 	display: none;
 	}
 }
-
